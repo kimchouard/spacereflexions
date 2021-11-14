@@ -85,6 +85,18 @@ body {
     font-size: 1.2rem;
 }
 
+a {
+    color: #f2b244;
+}
+
+a:hover {
+    color: #ca9230;
+}
+
+.credits {
+    margin-top: 15px;
+}
+
 iframe {
     margin: 15px 0;
 }
