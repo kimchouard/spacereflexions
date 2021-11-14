@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
-body, html {
+/* body, html {
     width: 100%;
     height: 100%;
-    background: black; /* #070f1a; */
+    background: #070f1a;
 }
 
 html, body, iframe {
@@ -31,23 +31,60 @@ html, body, iframe {
     position: fixed;
     left: 0;
     bottom: 0;
+} */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #050B17;
+}
+
+.header {
+    padding: 0;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.banner {
+    width: 100%;
+    padding: 0;
+}
+
+.content, .content-dark {
+    padding: 35px 20px 20px;
+}
+
+.content {
+    background: #e9edee;
+    border-radius: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.content-dark {
+    background: #050B17;
+    color: #e9edee;
+}
+
+.img-details {
+    display: inline-block;
+    margin: 10px 0 20px;
+}
+
+.cta {
+    margin: 30px 0 10px;
 }
 
 .cta-btn {
-    display: block;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 500px;
     padding: 10px 15px;
-    transform: translate(-50%, -50%);
-    margin: 0 auto;
     color: #f2b244;
     border: 2px solid #f2b244;
     border-radius: 10px;
-    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     text-decoration: none;
     text-align: center;
     font-size: 1.2rem;
+}
+
+iframe {
+    margin: 15px 0;
 }
