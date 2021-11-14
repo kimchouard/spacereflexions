@@ -65,9 +65,22 @@ body {
     color: #e9edee;
 }
 
-.img-details {
-    display: inline-block;
+.img-wrapper {
+    width: 100%;
+    position: relative;
     margin: 10px 0 20px;
+}
+
+.img-youtube {
+    position: absolute;
+    top: -12px;
+    right: 15px;
+    width: 46%;
+    height: 90%;
+}
+
+.img-details {
+    width: 100%;
 }
 
 .cta {
